@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portafolio Académico</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <div class="perfil">
+        <div class="avatar">
+            <img src="img/perf.jpeg" alt="">
+        </div>
+
+        <h3>Anderson Chang Campos</h3>
+    </div>
+
+
+
+    <nav>
+
+        <button class="tab active" onclick="mostrarUnidad('u1')">
+            Unidad 1
+        </button>
+
+        <button class="tab" onclick="mostrarUnidad('u2')">
+            Unidad 2
+        </button>
+
+        <button class="tab" onclick="mostrarUnidad('u3')">
+            Unidad 3
+        </button>
+
+        <button class="tab" onclick="mostrarUnidad('u4')">
+            Unidad 4
+        </button>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <p>HOLA, ME LLAMO ANDERSON.</p>
+
+    <h1>Portafolio Académico</h1>
+
+    <h2 id="tituloUnidad">
+        Fundamentos Avanzados 01
+    </h2>
+
+    <p id="descripcionUnidad">
+        Consultas SQL complejas, joins, subconsultas y funciones analíticas..
+    </p>
+
+</section>
+
+<!-- UNIDAD 1 -->
+
+<section class="unidad activa" id="u1">
+
+    <h2>Semanas</h2>
+
+    <div class="cards">
+
+        <a href="#" class="card">
+            <img src="img/semana1-1.jpg">
+            <h3>Semana 1</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s2.jpg">
+            <h3>Semana 2</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s3.jpg">
+            <h3>Semana 3</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s4.jpg">
+            <h3>Semana 4</h3>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- UNIDAD 2 -->
+
+<section class="unidad" id="u2">
+
+    <h2>Semanas</h2>
+
+    <div class="cards">
+
+        <a href="#" class="card">
+            <img src="img/s5.jpg">
+            <h3>Semana 5</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s6.jpg">
+            <h3>Semana 6</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s7.jpg">
+            <h3>Semana 7</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s8.jpg">
+            <h3>Semana 8</h3>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- UNIDAD 3 -->
+
+<section class="unidad" id="u3">
+
+    <h2>Semanas</h2>
+
+    <div class="cards">
+
+        <a href="#" class="card">
+            <img src="img/s9.jpg">
+            <h3>Semana 9</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s10.jpg">
+            <h3>Semana 10</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s11.jpg">
+            <h3>Semana 11</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s12.jpg">
+            <h3>Semana 12</h3>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- UNIDAD 4 -->
+
+<section class="unidad" id="u4">
+
+    <h2>Semanas</h2>
+
+    <div class="cards">
+
+        <a href="unidad1/semana1.html" class="card">
+            <img src="img/s13.jpg">
+            <h3>Semana 1</h3>
+        </a>
+
+        <a href="unidad1/semana2.html" class="card">
+            <img src="img/s14.jpg">
+            <h3>Semana 2</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s15.jpg">
+            <h3>Semana 3</h3>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/s16.jpg">
+            <h3>Semana 4</h3>
+        </a>
+
+    </div>
+
+</section>
+
+<div id="modalPerfil" class="modal">
+
+    <span class="cerrar">&times;</span>
+
+    <img src="img/perf.jpeg">
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
